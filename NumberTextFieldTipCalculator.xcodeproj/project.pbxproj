@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		C69010492392EE8F0098923E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69010482392EE8F0098923E /* AppDelegate.swift */; };
 		C690104B2392EE8F0098923E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690104A2392EE8F0098923E /* SceneDelegate.swift */; };
-		C690104D2392EE8F0098923E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690104C2392EE8F0098923E /* ContentView.swift */; };
 		C690104F2392EE960098923E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C690104E2392EE960098923E /* Assets.xcassets */; };
 		C69010522392EE960098923E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69010512392EE960098923E /* Preview Assets.xcassets */; };
 		C69010552392EE960098923E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69010532392EE960098923E /* LaunchScreen.storyboard */; };
+		C69010602392EEB90098923E /* SwiftUI+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690105D2392EEB90098923E /* SwiftUI+Extentions.swift */; };
+		C69010612392EEB90098923E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690105E2392EEB90098923E /* ContentView.swift */; };
+		C69010632393A2560098923E /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69010622393A2560098923E /* NumberTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C69010452392EE8F0098923E /* NumberTextFieldTipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberTextFieldTipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69010482392EE8F0098923E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C690104A2392EE8F0098923E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C690104C2392EE8F0098923E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C690104E2392EE960098923E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69010512392EE960098923E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C69010542392EE960098923E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69010562392EE960098923E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C690105D2392EEB90098923E /* SwiftUI+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Extentions.swift"; sourceTree = "<group>"; };
+		C690105E2392EEB90098923E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../DecimalFieldTipCalculator/DecimalFieldTipCalculator/ContentView.swift; sourceTree = "<group>"; };
+		C69010622393A2560098923E /* NumberTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				C69010482392EE8F0098923E /* AppDelegate.swift */,
 				C690104A2392EE8F0098923E /* SceneDelegate.swift */,
-				C690104C2392EE8F0098923E /* ContentView.swift */,
+				C690105E2392EEB90098923E /* ContentView.swift */,
+				C69010622393A2560098923E /* NumberTextField.swift */,
+				C690105D2392EEB90098923E /* SwiftUI+Extentions.swift */,
 				C690104E2392EE960098923E /* Assets.xcassets */,
 				C69010532392EE960098923E /* LaunchScreen.storyboard */,
 				C69010562392EE960098923E /* Info.plist */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C69010492392EE8F0098923E /* AppDelegate.swift in Sources */,
+				C69010632393A2560098923E /* NumberTextField.swift in Sources */,
+				C69010612392EEB90098923E /* ContentView.swift in Sources */,
 				C690104B2392EE8F0098923E /* SceneDelegate.swift in Sources */,
-				C690104D2392EE8F0098923E /* ContentView.swift in Sources */,
+				C69010602392EEB90098923E /* SwiftUI+Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
