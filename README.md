@@ -1,4 +1,4 @@
-# NumberTextFieldTipCalculator
+# NSNumber?TextFieldTipCalculator
 
 Real-time NumberFormatter Validation of TextField Input with NSNumber?
 
